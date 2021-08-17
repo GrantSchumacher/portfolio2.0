@@ -1,0 +1,327 @@
+html, body {
+  background-color: #BCF0C1;
+}
+
+h1 {
+  font-family: bree, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 0px) {
+  .hero {
+    z-index: 1;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+  }
+  .hero .hero-illustration {
+    padding: 2em;
+  }
+  .hero h1 {
+    color: #1a4461;
+    font-weight: bold;
+  }
+  .hero h4 {
+    font-size: 90%;
+  }
+  .hero h3 {
+    visibility: hidden;
+  }
+  .hero .scroller {
+    margin-top: -5em;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 50em 0 0 50em;
+    background-color: #C7F9CC;
+    right: 0;
+    z-index: -1;
+  }
+  section, .featured {
+    margin-top: 5em;
+    padding: 4em 2em;
+    background-color: #BCF0C1;
+  }
+  .featured {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+  }
+  .featured::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 300px;
+    background-color: rgba(56, 163, 165, 0.2);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .featured-img {
+    border-radius: 1em;
+    width: 100%;
+  }
+  .subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2F8C8E;
+    letter-spacing: .2em;
+    font-size: .85em;
+  }
+  .featured-title {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: -.4em;
+    display: block;
+  }
+  .featured-desc {
+    color: #163850;
+    margin-bottom: 3em;
+    font-size: .9em;
+    line-height: 1.8em;
+    font-weight: 400;
+    margin-top: 1em;
+  }
+  .skills {
+    background-color: #38A3A5;
+  }
+  .skills-container ul li {
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .portfolio {
+    background-color: white;
+    text-align: center;
+  }
+  .portfolio .portfolio-container {
+    border-radius: 1em;
+    margin-bottom: 2em;
+  }
+  .portfolio .portfolio-img {
+    border-radius: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero .hero-illustration {
+    margin: auto;
+    width: 60%;
+    padding: .5em;
+    margin-top: -3em;
+  }
+  .hero .scroller {
+    margin-top: 2em;
+  }
+  .hero .hero-title h1 {
+    margin-top: 2em;
+  }
+  .hero .hero-title h3 {
+    color: #22577A;
+    font-weight: 600;
+    letter-spacing: .1em;
+    font-size: .85em;
+    margin-top: 2em;
+    visibility: visible;
+  }
+  .hero::before {
+    width: 80vw;
+    height: 100vh;
+    border-radius: 150em 0 0 150em;
+    bottom: 0;
+  }
+  .featured {
+    margin-top: 10em;
+  }
+  .featured, .portfolio-container {
+    text-align: left;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 45% auto;
+        grid-template-columns: 45% auto;
+    padding: 2em;
+  }
+  .featured::before {
+    width: 300px;
+    height: 300px;
+    border-radius: 0 10% 10% 0;
+  }
+  .skills {
+    margin-bottom: -7em;
+    padding-top: 7em;
+  }
+  .skills-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
+  .left, .portfolio-left {
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    margin-left: 30%;
+  }
+  .right {
+    margin-left: 2em;
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero .hero-container {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-grid-columns: 40% auto;
+        grid-template-columns: 40% auto;
+  }
+  .hero .hero-illustration {
+    margin: auto;
+    width: 40%;
+    padding: .5em;
+    margin-top: 0em;
+    margin-right: 5em;
+  }
+  .hero .hero-title {
+    margin-left: 4em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .hero .hero-title h1 {
+    font-size: 4em;
+    margin-top: 0;
+    letter-spacing: .09em;
+  }
+  .hero .skills-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
+  .hero::before {
+    width: 50vw;
+    height: 100vh;
+  }
+  .featured::before {
+    width: 400px;
+    height: 400px;
+    border-radius: 0 10% 10% 0;
+  }
+  .featured-img {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero .hero-title h1 {
+    font-size: 6em;
+  }
+  .hero .hero-title h3 {
+    font-size: 1.2em;
+    line-height: 1.4;
+  }
+}
+
+.expand-in {
+  -webkit-animation: rect-expand 0.5s cubic-bezier(0.59, 0, 0, 0.97) 0s forwards;
+          animation: rect-expand 0.5s cubic-bezier(0.59, 0, 0, 0.97) 0s forwards;
+}
+
+@-webkit-keyframes rect-expand {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes rect-expand {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.fade-in {
+  -webkit-animation: fade-in .5s linear 0s forwards;
+          animation: fade-in .5s linear 0s forwards;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.scroll {
+  animation: scroll 1.5s ease-in-out 0s infinite alternate-reverse;
+}
+
+@-webkit-keyframes scroll {
+  from {
+    -webkit-transform: translate(179px, 697px);
+            transform: translate(179px, 697px);
+  }
+  to {
+    -webkit-transform: translate(179px, 737px);
+            transform: translate(179px, 737px);
+  }
+}
+
+@keyframes scroll {
+  from {
+    -webkit-transform: translate(179px, 697px);
+            transform: translate(179px, 697px);
+  }
+  to {
+    -webkit-transform: translate(179px, 737px);
+            transform: translate(179px, 737px);
+  }
+}
+/*# sourceMappingURL=main.css.map */
