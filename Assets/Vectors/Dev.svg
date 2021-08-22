@@ -1,10 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="160.889" height="60" viewBox="0 0 160.889 60">
-  <g id="Group_317" data-name="Group 317" transform="translate(-788.912 -2272.5)">
-    <path id="Path_108" data-name="Path 108" d="M28.654,7.638a5,5,0,0,1,8.692,0l24.4,42.889A5,5,0,0,1,57.4,58H8.6a5,5,0,0,1-4.346-7.473Z" transform="translate(783.802 2335.5) rotate(-90)" fill="#cd4b4a"/>
-    <path id="Polygon_2" data-name="Polygon 2" d="M21.893,6.284a5,5,0,0,1,8.334,0L46.973,31.539A5,5,0,0,1,42.806,39.3H9.315a5,5,0,0,1-4.167-7.763Z" transform="translate(949.802 2276.439) rotate(90)" fill="#cd4b4a"/>
-    <g id="Group_318" data-name="Group 318" transform="translate(22.651 7.5)">
-      <rect id="Rectangle_163" data-name="Rectangle 163" width="23" height="23" transform="translate(841 2265)" fill="#e15554"/>
-      <path id="Path_107" data-name="Path 107" d="M0,0H23S18.637,9.449,12.887,15.2A33.438,33.438,0,0,1,0,23Z" transform="translate(841 2302)" fill="#e15554"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="138" height="138" viewBox="0 0 138 138">
+  <g id="DevIcon" transform="translate(-257 -2188)">
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="69" cy="69" r="69" transform="translate(257 2188)" fill="#df9589"/>
+    <text id="_" data-name="&lt;/&gt;" transform="translate(326 2284)" fill="#fff" font-size="80" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-57.832" y="0">&lt;/&gt;</tspan></text>
   </g>
 </svg>

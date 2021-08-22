@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="108.828" height="108.828" viewBox="0 0 108.828 108.828">
-  <g id="Group_319" data-name="Group 319" transform="translate(-1253.84 -2228.84)">
-    <g id="Rectangle_165" data-name="Rectangle 165" transform="translate(1308.254 2242.982) rotate(45)" fill="none" stroke="#e15554" stroke-width="10">
-      <rect width="56.953" height="56.953" rx="5" stroke="none"/>
-      <rect x="-5" y="-5" width="66.953" height="66.953" rx="10" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="138" height="138" viewBox="0 0 138 138">
+  <g id="DesignIcon" transform="translate(-418 -2188)">
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="69" cy="69" r="69" transform="translate(418 2188)" fill="#df9589"/>
+    <g id="Group_334" data-name="Group 334" transform="translate(-1)">
+      <path id="Union_1" data-name="Union 1" d="M-1990,44l10-44h31l10,44-25.5,44Z" transform="translate(2452 2213)" fill="#fff"/>
+      <circle id="Ellipse_15" data-name="Ellipse 15" cx="9.5" cy="9.5" r="9.5" transform="translate(478 2247)" fill="#df9589"/>
+      <rect id="Rectangle_167" data-name="Rectangle 167" width="41" height="6" transform="translate(467 2221)" fill="#df9589"/>
     </g>
-    <circle id="Ellipse_12" data-name="Ellipse 12" cx="18.614" cy="18.614" r="18.614" transform="translate(1308.254 2256.929) rotate(45)" fill="#cd4b4a"/>
   </g>
 </svg>

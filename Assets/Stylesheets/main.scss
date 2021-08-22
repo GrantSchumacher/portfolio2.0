@@ -110,16 +110,26 @@ img{
 
     .skills{
         background-color: #38A3A5;
+        .icon-container{
+            height: 100px;
+            display: grid;
+            place-content: center;
+            margin: 0 auto;
+            width: 60px;
+        }
+
+        .skills-container ul li{
+            background-color: white;
+            padding: 2em;
+            border-radius: 1em;
+            margin-bottom: 1em;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
     }
-    .skills-container ul li{
-        background-color: white;
-        padding: 2em;
-        border-radius: 1em;
-        margin-bottom: 1em;
-        text-align: center;
-    }
+    
     .portfolio{
-        background-color: white;
         text-align: center;
         .portfolio-container{
             border-radius: 1em;
@@ -130,6 +140,7 @@ img{
             
         }
     }
+   
 }
 
 // Medium devices (tablets, 768px and up)
@@ -166,6 +177,9 @@ img{
         bottom: 0;
 
     }
+
+    
+
     .featured{
         margin-top: 10em;
     }
@@ -182,20 +196,26 @@ img{
     }
     
     .skills{
-        
+        margin-top: 10em;
         margin-bottom: -7em;
         padding-top: 7em;
     }
     .skills-container ul{
         display: grid;
-        grid-template-columns: repeat(3, auto);
-        grid-gap: 1em;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2em;
+        margin-bottom: -8em;
+        margin-top: -3em;
+
+        .icon-container{
+            margin-bottom: 2em;
+        }
     }
 
     .left, .portfolio-left{
         display: grid;
         place-content: center;
-        margin-left: 30%;
+        margin-left: 20%;
         
     }
     .right{
@@ -243,6 +263,8 @@ img{
         width: 50vw;
         height: 100vh;
     }
+
+
     
     .featured::before{
         width: 400px;
@@ -276,44 +298,22 @@ img{
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {  }
 
-
-
-.expand-in{
-    animation: rect-expand .5s cubic-bezier(.59,0,0,.97) 0s forwards;
-    
-}
-
-@keyframes rect-expand {
-    from{
-        width: 0px;
-    }
-    to{
-        width: 100%;
-    }
-}
-
-.fade-in{
-    animation: fade-in .5s linear 0s forwards;
-}
-
-@keyframes fade-in {
-    from{
-        opacity: 0%;
-    }
-    to{
-        opacity: 100%;
-    }
-}
-
 .scroll{
-    animation: scroll 1.5s ease-in-out 0s infinite alternate-reverse;
-  }
-  @keyframes scroll{
-    from{
-      transform: translate(179px, 697px);
+      animation: scroll 1s ease-in-out 0s infinite alternate-reverse;
     }
-    to{
-      transform: translate(179px, 737px);
+    @keyframes scroll{
+      from{
+        transform: translate(179px, 697px);
+      }
+      to{
+        transform: translate(179px, 737px);
+      }
+    
     }
+
+
+
+
+
+
   
-  }
